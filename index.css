@@ -5,6 +5,7 @@
     font-family: 'Titillium Web', sans-serif;
 
 }
+
 header{
 }
 .landing{
@@ -133,7 +134,7 @@ header{
 .text a:hover{
     
 }
-
+/***********SERVICES****************/
 .services{
     display: flex; 
     justify-content: space-between;
@@ -177,7 +178,226 @@ header{
     font-weight: bold;
 }
 .serv i{
-    color: green;
+  
     font-size: 1.5em;
     padding-top: 10px;
+}
+/***************WHO WE ARE*****************/
+.who-we-are{
+    display: flex;
+    
+}
+.who-we-are img{
+    border-radius: 10px;
+}
+.who-we-are article{
+ 
+    align-items: center;
+    display: block;
+    position: relative;
+    padding: 50px 80px 50px 10px;
+}
+.keep{
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 100%;
+    letter-spacing: -1px;
+}
+.who{
+    color: green;
+    letter-spacing: 1px;
+}
+.desc{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.who-we-are button{
+    padding: 10px 5px;
+    width: 30%;
+    font-size: 1.1em;
+}
+.renew{
+    position: absolute;
+    display: block;
+    padding: 35px 1px;
+    background-color: bisque;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 20; 
+    width: 17%;
+   top: 154%;
+   left: 52%;
+    
+
+}
+i{
+    font-size: 2em;
+    color: rgb(102, 204, 102);
+}
+.re{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.en{
+    font-size: 2em;
+    font-weight: bold;
+}
+/***SOLUTION***/
+.solution {
+    position: relative;
+    display: block;
+    background: #0e7dd8;
+    background-image: url("solar-panel.jpg"); /* fallback */
+    background-image: url("solar-panel.jpg"), linear-gradient(#4050e9, #7eb1eb); /* W3C */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 150px;
+}
+.solution-desc{
+    text-align: center;
+    position: relative;
+    width: 100%;    
+}
+.solution-our{
+        color: green;
+        letter-spacing: 1px;
+}
+.solution-keep{
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 100%;
+    letter-spacing: -1px;
+ 
+    align-items: center;
+    width: 100%;
+   
+}
+.solution-para{
+    font-weight: bold;
+    font-size: 1em;
+    align-items: center;
+    width: 100%;
+   
+}
+.card-img-top{
+    
+}
+.solution-two-images{
+    display: flex;
+    position: relative; 
+   border-radius: 50px;
+   z-index: 200;
+   top: 70px;
+
+
+}
+.solution-two-images .card{
+    border-radius: 10px;
+}
+.solution-two-images img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.solution-two-images img{
+    width: 100%;
+}
+.solution-two-images h5{
+    font-size: 2em;
+   font-weight: 600;
+}
+.solution-two-images p{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.solution-two-images i{
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/**WHAT WE OFFER**/
+.what-we-offer{
+    display: block;
+    align-items: center;
+
+   border-bottom: 10px;
+}
+.what-we-offer img{
+    border-radius: 10px 10px 0px 0px;
+}
+.what-we-offer-desc{
+    text-align: center;
+    position: relative;
+    width: 100%;   
+}
+.what-we-offer-desc h3{
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 100%;
+    letter-spacing: -1px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.what-we-offer .card-title{
+    font-size: 2em;
+    font-weight: 600;
+}
+.what-we-offer .card-text{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.what-we-offer .btn {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.what-we-offer .card{
+    border-radius: 10px;
+    border-top: none;
+}
+/**HOW IT WORKS***/
+.how-it-works{
+    display: block;
+    position: relative;
+    text-align: center;
+    background-image: url("backgrounddashed.jpg"); /* fallback */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.step{
+    display: flex;
+    position: relative;
+    margin-left: 50px;
+    justify-content: center;
+
+}  
+.step .card{  
+    padding: 30px;
+    margin: 15px;
+    width: 18%;
+    outline: none;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(250, 244, 237);
+}
+.step .card-subtitle{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.how-it-works h3{
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 100%;
+    letter-spacing: -1px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.how-it-works .how-desc{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
