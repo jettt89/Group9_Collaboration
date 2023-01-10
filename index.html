@@ -7,22 +7,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
     ">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <title>Phoenix Energy</title>
 </head>
-<body>
+<body class="phoenix">
    <section class="landing container-fluid">
-        <header class="container">
+    <video src="background3.mp4"width="100%" autoplay loop muted></video>
+  
+        <header class="headers container">
           <h1 class="logo">Phoenix</h1>
-            <div class="toggle"><i class="fa-solid fa-bars"></i></div>
+            <!-- <div class="toggle"><i class="fa-solid fa-bars"></i></div> -->
             <nav class="navbar">
                 <ul>
-              
                     <li><a href="">Home </a></li>
                     <li><a href="#About">About </a></li>
                     <li><a href="#MENU">Menu</a></li>
                     <li><a href="#Contact">Contacts </a></li>
+                    <a href=""></a>
                 </ul>
               </nav>
     </header>
@@ -32,15 +35,19 @@
 
     <div class="overlay"></div>
 
-    <div class="text">
-        <h2>Lorem.</h2>
-        <h3>Lorem.</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima magni ex assumenda quo! Architecto in mollitia aspernatur. Dolorum, commodi fugiat, dignissimos velit porro, aperiam tempora perspiciatis doloribus a ut quod!</p>
-        <a href="#">EXPLORE 1</a>
-        <a href="#">EXPLORE 2</a>
-    </div>
+    <div class="text container">
+        <h2 class="head">WELCOME TO PHOENIX</h2>
+        <h3>Lorem.</h3> 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Facilis blanditiis sit at voluptatum ea consequatur deleniti odit laboriosam corporis minima.</p>
+        <div class="explore">
+            <a class="btn" href="#">EXPLORE 1</a>
+            <a class="btn" href="#">EXPLORE 2</a>
+      </div>
+  </div>
     </section>  
-    <div class="menu">
+    <section class="inner-section">
+    </section>
+   <!-- <div class="menu">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -48,54 +55,60 @@
             <li><a href="#">Products</a></li>
             <li><a href="#">Contact Us</a></li>
         </ul>
-    </div>
-    <!---SERVICES-->
+    </div> -->
+
+    <!-- -SERVICES -->
     <section class="services container">
-      
-        <div class="count">
-            <i class="fa-solid fa-bolt-lightning"></i>
+     
+      <div class="count">
+          <i class="fa-solid fa-bolt-lightning"></i>
 
-            <p>Since 2010, our customers have avoided</p>
-            <p class="num">112,845,311+</p>
+          <p>Since 2010, our customers have avoided</p>
+          <p class="num">112,845,311+</p>
 
-            <p>pounds of CO2.</p>
-        </div>
-        <div class="serv m-1">
-        <div class="">
+          <p>pounds of CO2.</p>
+      </div>
+      <div class="servicess">
+      <article class="serv gx-5">
+      <div class="serv-item-one col col-lg-4 col-md-12">
 
-            <i class="fa-solid fa-gear"></i>
-            <br>
-            <h2>Intallation</h2>
-            <br>
-            <p>Cubilia aptent vivamus congue nunc venenatis ridiculus dictum</p>
+          <i class="fa-solid fa-gear"></i>
+        
+          <h2>Installation</h2>
+ 
+          <p class="texts">Cubilia aptent vivamus congue nunc venenatis ridiculus dictum</p>
 
-            <button class="btn bg-danger">Learn More...</button>
-        </div>
-        <div class="">
-            <i class="fa-solid fa-screwdriver-wrench"></i>
-            <br>
-            <h2>Maintenance</h2>
-            <br>
-            <p>Cubilia aptent vivamus congue nunc venenatis ridiculus dictum</p>
-
-            <button class="btn bg-danger">Learn More...</button>
-        </div>
-        <div class="">
-            <i class="fa-regular fa-comment-dots"></i>
-            <br>
-            <h2>Consultation</h2>
-            <br>
-            <p>Cubilia aptent vivamus congue nunc venenatis ridiculus dictum</p>
-
-            <button class="btn bg-danger">Learn More...</button>
+          <button class="btn">Learn More...</button>  
+      </div>
+      <div class="serv-item-two col col-lg-4 col-md-12 ">
+          <i class="fa-solid fa-screwdriver-wrench"></i>
+        
+          <h2>Maintenance</h2>
+     
+          <p class="texts">Cubilia aptent vivamus congue nunc venenatis ridiculus dictum</p>
+          <button class="btn ">Learn More...</button>
+          
+      </div>
+      <div class="serv-item-three col col-lg-4 col-md-12 ">
+          <i class="fa-solid fa-comment-dots"></i>
        
-    </div>
-    </div>
+          <h2>Consultation</h2>
+       
+          <p class="texts">Cubilia aptent vivamus congue nunc venenatis ridiculus dictum</p>
 
-    </section>
-<!----WHO WE ARE-->
+          <button class="btn">Learn More...</button>
+     
+    </div>
+      </article>
+    </div>
+ 
+</div>
+ </section>
+  </div>
+<!-- --WHO WE ARE -->
     <section class="who-we-are container">
-        <article class="cols-lg-6">
+      <div class="row g-5">
+        <article class="whos col-6">
             <p class="who">WHO WE ARE</p>
             <p class="keep">Keep your environment <br>
             clean make the earth green.</p>
@@ -106,33 +119,35 @@
 
         </article >
       
-        <div class="cols-lg-6">
+        <article class="renew1 p-5 col-6">
+        <img src="windturbine.png" alt="">
             <div class="renew">
                 <i class="fa-solid fa-bolt-lightning"></i>
            
-                <p class="re">Renewable Energy</p>
+                <p class="re">RENEWABLE ENERGY</p>
              
-                <p class="en">Energy is the future,make it brilliant. </p>
-            </div> 
-        <img src="windturbine.png" alt="">
-    </div>
+                <p class="en">Energy is the future, make it brilliant. </p>
+           
+              </div> 
+       
+      </article>
+  </div>
 
-    </section>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    
+  </section>  
 
 
-<!------SOLUTION-->
+<!-- ----SOLUTION -->
 <section class="solution container-fluid">
-        <div class="solution-desc container col-lg-12">
+   
+   
+      <div class="solution-overlay"></div>
+        <div class="solution-desc">
+          <div class="solution-header">
         <p class="solution-our">OUR SOLUTION</p>
-        <p class="solution-keep">Keep your environment clean make the <br> earth green.</p>
-        <p class="solution-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, eos! Magni porro esse at error recusandae voluptatibus aliquid magnam sequi neque? Dicta <br> iure libero quaerat ut magni aliquam soluta delectus!</p>
-    </div>
+        <p class="solution-keep">Keep your environment clean make the earth green.</p>
+        <p class="solution-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, eos! Magni porro esse at error recusandae voluptatibus aliquid magnam sequi neque? Dicta iure libero quaerat ut magni aliquam soluta delectus!</p>
+      </div>
+      </div>
     <br>
     <br>
     <div class="container solution-two-images">
@@ -165,7 +180,11 @@
    
 
     </section>
-    <!---WHAT WE OFFER-->
+    <br>
+    <br>
+    <br>
+  
+    <!-- -WHAT WE OFFER -->
     <section class="what-we-offer container">
         <div class="what-we-offer-desc">
         <p class="solution-our">WHAT WE OFFER</p>
@@ -213,13 +232,8 @@
               </div>
         </article>
     </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <!---HOW IT WORKS-->
+ 
+    <!-- -HOW IT WORKS -->
     <section class="how-it-works container-fluid">
         <div class="how-it-works-desc container">
             <p class="solution-our">HOW IT WORKS</p>
@@ -267,15 +281,75 @@
                 </div>
               </div>
         </div>
+<br>
+<br>
+<br>
+    </section>
+    <!-- -LETS SHINE SECTION -->
+    <section class="lets-shine container-fluid">
+    </section>
+<!-- --WE NEED A SOLAR SECTION -->
+    <section class="we-need container">
+      <div class="row container">
+        <div class="col-md-6">
+          <img src="shine-images.png" alt="">
+        </div>
+        <article class="we-need-desc col-md-6">
+          <div class="we-need-cont">
+          <h3>We need a solar solution for a better future.</h3>
+          <p>Fringilla etiam tempor faucibus ullamcorper arcu nulla duis. Magnis faucibus nulla risus laoreet maximus. Diam lorem suscipit nisi imperdiet quis feugiat nec pede mauris vel iaculis. Sociosqu magna mi mollis litora nascetur pharetra.</p>
+          <p>Fringilla etiam tempor faucibus ullamcorper arcu nulla duis. Magnis faucibus nulla risus laoreet maximus. Diam lorem suscipit nisi imperdiet quis feugiat nec pede mauris vel iaculis. Sociosqu magna mi mollis litora nascetur pharetra.</p>
+          <br>
+          <button class="btn bg-warning">Discover now</button>
+        </div>
+      
+      </article>
+    </div>
+
+      </div>
 
     </section>
-    
-
-
-
-
-
-    
+<!-- WHY CHOOSE US -->
+    <section class="why-choose-us container">
+      <article class="col col-4">
+        <div class="choose-header">
+          <p class="choose-our">WHY CHOOSE US</p>
+          <p class="choose-keep">Live Green, Love Green, Think Green.</p>
+          <p class="choose-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium deserunt provident soluta nulla consectetur assumenda officia?</p>
+        </div>
+        <div >
+          <img src="worker.jpeg" alt="">
+        </div>  
+      </article> 
+      </article>
+      <article class="choose-element">
+        <div class="row">
+            <article class="col">
+              <i class="fa-sharp fa-solid fa-leaf"></i>
+              <h2>Eco Technology</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elissitus adipisci, nisi suscipit voluptas iste vel!</p>
+            </article>
+            <article class="col">
+              <i class="fa-sharp fa-solid fa-microchip"></i>
+              <h2>Smart Technology</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis expedita, ea ad temporibus ipsum repellat?</p>
+            </article>
+        </div>
+        <div class="row ">
+          <article class="col">
+            <i class="fa-sharp fa-solid fa-leaf"></i>
+            <h2>Eco Technology</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elissitus adipisci, nisi suscipit voluptas iste vel!</p>
+          </article>
+          <article class="col">
+            <i class="fa-sharp fa-solid fa-microchip"></i>
+            <h2>Smart Technology</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis expedita, ea ad temporibus ipsum repellat?</p>
+          </article>
+        </div>          
+      </article>
+    </section>
+<section></section>
 </body>
 <script src="js/bootstrap.bundle.js"></script>
 </html>

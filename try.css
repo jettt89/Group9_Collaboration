@@ -1,0 +1,431 @@
+*{ 
+   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.landing{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    z-index: 4;
+}
+.menu{
+    display: none;
+}
+.landing header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:40px 100px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 30px;
+    color: white;
+    right: 20px; 
+    cursor: pointer;
+}
+.toggle{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.landing video{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 91%;
+object-fit: cover;
+opacity: 0.8;
+}
+.overlay{
+    position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 91%;
+background-color: rgb(212, 208, 208);
+mix-blend-mode: overlay;
+}
+.text {
+    position: absolute;
+    z-index: 10;
+    display: block;
+ 
+    align-items: center;
+    right: 30%;
+}
+.text h2{
+    font-size: 5em;
+    font-weight: 800;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+.text p{
+    font-size: 1.2em;
+    margin: 20px 0;
+    font-weight: 400;
+    max-width: 700px;
+}
+.text a{
+    display: inline-block;
+    font-size: 1em;
+    background: white;
+    padding: 10px 30px;
+    text-decoration:none;
+    color: black;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .4s;
+}
+.text a:hover{
+    background-color: yellow;
+    color: black;
+}
+/***********SERVICES****************/
+.services{
+    position: relative;
+    display: flex; 
+    justify-content: space-between;
+    
+}
+.count{
+    position: relative;
+    background-color: rgb(72, 149, 236);
+    text-align: center;
+    font-size: 1.5em;
+     border-radius: 10px;
+    padding: 40px;
+    bottom: 90px;
+    z-index: 2121212;
+    color: white;
+    height: 100%;
+    
+}
+.count p{
+    font-weight: 700;
+}
+.num{
+    font-size: 2em;
+    font-weight: bold;
+}
+.serv{
+    position: relative;
+    display: flex;
+    text-align: center;
+    font-size: 1.5em;
+     border-radius: 10px;
+    padding: 50px;
+    bottom: 100px;
+    z-index: 2121212;
+    margin-left: -5px;
+    justify-content: space-between;
+}
+.serv div{
+    background: rgb(248, 244, 244);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.serv h2{
+    font-weight: bold;
+}
+.serv i{
+  
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+/***************WHO WE ARE*****************/
+.who-we-are{
+    display: flex;
+    
+}
+.who-we-are img{
+    border-radius: 10px;
+}
+.who-we-are article{
+ 
+    align-items: center;
+    display: block;
+    position: relative;
+    padding: 50px 80px 50px 10px;
+}
+.keep{
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 100%;
+    letter-spacing: -1px;
+}
+.who{
+    color: green;
+    letter-spacing: 1px;
+}
+.desc{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.who-we-are button{
+    padding: 10px 5px;
+    width: 30%;
+    font-size: 1.1em;
+}
+.renew{
+    position: absolute;
+    display: block;
+    padding: 35px 1px;
+    background-color: bisque;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 20; 
+    width: 17%;
+   top: 154%;
+   left: 52%;
+    
+
+}
+i{
+    font-size: 2em;
+    color: rgb(102, 204, 102);
+}
+.re{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.en{
+    font-size: 2em;
+    font-weight: bold;
+}
+/***SOLUTION***/
+.solution {
+    position: relative;
+    display: block;
+    background: #0e7dd8;
+    background-image: url("solar-panel.jpg"); /* fallback */
+    background-image: url("solar-panel.jpg"), linear-gradient(#4050e9, #7eb1eb); /* W3C */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 150px;
+}
+.solution-desc{
+   
+ padding-top: 100px;
+    text-align: center;
+    position: relative;
+    width: auto;  
+    z-index: 3;
+}
+.solution-our{
+        color: green;
+        letter-spacing: 1px;
+}
+.solution-keep{
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 100%;
+    letter-spacing: -1px;
+ 
+    align-items: center;
+    width: auto;
+   
+}
+.solution-overlay{
+    position: absolute; 
+  
+     height: 100%; 
+     width: 100%; 
+    background-color: rgb(53, 107, 189);
+	opacity: 0.8;
+    z-index: 2;
+    left: 0;
+    right: 0;
+}
+.solution-para{
+    font-weight: bold;
+    font-size: 1em;
+    align-items: center;
+   width: auto;
+   
+}
+.card-img-top{
+    
+}
+.solution-two-images{
+    display: flex;
+    position: relative; 
+   border-radius: 50px;
+   z-index: 200;
+   top: 70px;
+
+
+}
+.solution-two-images .card{
+    border-radius: 10px;
+}
+.solution-two-images img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.solution-two-images img{
+    width: 100%;
+}
+.solution-two-images h5{
+    font-size: 2em;
+   font-weight: 600;
+}
+.solution-two-images p{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.solution-two-images i{
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/**WHAT WE OFFER**/
+.what-we-offer{
+    display: block;
+    align-items: center;
+
+   border-bottom: 10px;
+}
+.what-we-offer img{
+    border-radius: 10px 10px 0px 0px;
+}
+.what-we-offer-desc{
+    text-align: center;
+    position: relative;
+    width: 100%;   
+}
+.what-we-offer-desc h3{
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 100%;
+    letter-spacing: -1px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.what-we-offer .card-title{
+    font-size: 2em;
+    font-weight: 600;
+}
+.what-we-offer .card-text{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.what-we-offer .btn {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.what-we-offer .card{
+    border-radius: 10px;
+    border-top: none;
+}
+/**HOW IT WORKS***/
+.how-it-works{
+    display: block;
+    position: relative;
+    text-align: center;
+    background-image: url("backgrounddashed.jpg"); /* fallback */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.step{
+    display: flex;
+    position: relative;
+    margin-left: 50px;
+    justify-content: center;
+
+}  
+.step .card{  
+    padding: 30px;
+    margin: 15px;
+    width: 18%;
+    outline: none;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(250, 244, 237);
+}
+.step .card-subtitle{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.how-it-works h3{
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 100%;
+    letter-spacing: -1px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.how-it-works .how-desc{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+/**LETS SHINE SECTION**/
+.lets-shine{
+    display: flex;
+    justify-content: space-between;
+}
+
+/**WE NEED A SOLAR SECTION*/
+.we-need{
+    display: flex;
+    justify-content: space-between;  
+}
+.we-need-desc{
+   
+}
+.we-need-cont{
+  
+    position: relative;
+    width: 90%;
+    left: 60px;
+    top: 100px;
+}
+.we-need img{
+   border-radius: 10px;
+}
+.we-need-cont h3 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.we-need-cont p{
+    font-size: 1.2em;
+    font-weight: 500;
+    color: gray;
+}
+.we-need-cont button{
+    padding: 10px;
+    align-items: center;
+    left: 20px;
+}

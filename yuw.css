@@ -1,0 +1,10 @@
+body{
+    background-color: red;
+}
+html{
+    background-color: brown;
+}
+*{
+    background-color: blue;
+    width: 100%;
+}
